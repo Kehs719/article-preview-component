@@ -85,8 +85,6 @@ body{
     position: relative;
     display: flex;
     align-items: flex-end;
-    height:50px;
-    margin-top: -16px;
 }
 .share-btn{
     display: flex;
@@ -104,10 +102,6 @@ body{
 .share:hover .share-btn{
     background-color: var(--very-dark-grayish-blue) ;
 }
-.share:hover .share-box{
-    display: block;
-    animation: 1s opacityIn;
-}
 .share:hover .share-btn img{
     filter:  brightness(0) invert(1);
 }
@@ -118,7 +112,7 @@ body{
     width:248px;
     height:55px;
     background-color: var(--very-dark-grayish-blue);
-    bottom:55px;
+    bottom:58px;
     right:-109px;
     transition: .5s;
     border-radius: 10px;
@@ -219,3 +213,4 @@ body{
         opacity:1;
     }
 }
+

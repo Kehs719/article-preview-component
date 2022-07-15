@@ -11,7 +11,7 @@ shareBtn.addEventListener('click',()=>{
     }
     else{
         clicked=false;
-        shareBox.style.animation="1s opacityIn ease-in reverse";
+        shareBox.style.animation="1s opacityOut";
         setTimeout(() =>{
            shareBox.style.display="none";
         }, 1500); 

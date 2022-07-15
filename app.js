@@ -14,7 +14,7 @@ shareBtn.addEventListener('click',()=>{
         shareBox.style.animation="1s opacityOut";
         setTimeout(() =>{
            shareBox.style.display="none";
-        }, 1500); 
+        }, 1000); 
         
     }
         
